@@ -14,11 +14,33 @@
     <div id="video1">
         <h3 style="font-size: 20px; color: aliceblue;">Class 1</h3>
 
-        <video width="640" height="360" controls style="margin-top: 20px; border: 2px solid #ccc; border-radius: 10px;">
-            <source src="videos\alamgee.mp4" type="video/mp4">
+        <video width="640" height="360" controls style="margin-top: 20px; border: 2px solid #ccc; border-radius: 10px;" controlsList="nodownload nofullscreen noremoteplayback" controls style="pointer-events: none;">
+            <source src="videos\demo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
+
+    <div class="file" style="margin-top: 5%;">
+    <a href="./word_files/class1.docx" download
+       style="
+           display: inline-block;
+           color: white;
+           background-color: #2ecc71;
+           padding: 12px 24px;
+           text-decoration: none;
+           font-size: 18px;
+           font-weight: bold;
+           border-radius: 30px;
+           border: 2px solid #27ae60;
+           transition: background-color 0.3s ease, transform 0.2s ease;
+       "
+       onmouseover="this.style.backgroundColor='#27ae60'; this.style.transform='scale(1.05)'"
+       onmouseout="this.style.backgroundColor='#2ecc71'; this.style.transform='scale(1)'"
+    >
+        ⬇️ Download Class 1 Word File
+    </a>
+</div>
+
     
 
 </body>
